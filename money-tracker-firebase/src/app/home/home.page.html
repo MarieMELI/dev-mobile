@@ -4,7 +4,7 @@
 
     <div class="list">
       <ion-list>
-        <ion-item-sliding *ngFor="let transaction for moneyTransactions">
+        <ion-item-sliding *ngFor="let transaction of moneyTransactions">
           <ion-item>
             <ion-label>
               {{transaction.title}}
